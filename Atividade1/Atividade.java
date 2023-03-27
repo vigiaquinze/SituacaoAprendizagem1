@@ -6,6 +6,7 @@ public class Atividade {
     Scanner scan = new Scanner(System.in);
 
     public void atividadeUm() {
+        System.out.println("Digite dois números e depois escolha uma das operações aritméticas.");
         System.out.println("Digite o primeiro número do cálculo: ");
         int numeroUm = scan.nextInt();
         System.out.println("Digite o segundo número do cálculo: ");
