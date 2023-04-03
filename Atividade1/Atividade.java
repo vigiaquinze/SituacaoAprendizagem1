@@ -8,9 +8,9 @@ public class Atividade {
     public void atividadeUm() {
         System.out.println("Digite dois números e depois escolha uma das operações aritméticas.");
         System.out.println("Digite o primeiro número do cálculo: ");
-        int numeroUm = scan.nextInt();
+        double numeroUm = scan.nextDouble();
         System.out.println("Digite o segundo número do cálculo: ");
-        int numeroDois = scan.nextInt();
+        double numeroDois = scan.nextDouble();
         System.out.println("Agora escolha qual operação quer fazer: \n 1. Adição \n 2. Subtração \n 3. Multiplicação \n 4. Divisão");
         int operacaoAritmetica = scan.nextInt();
         if (operacaoAritmetica==1){System.out.println("O resultado de "+numeroUm+" mais "+numeroDois+ "é igual à: "+numeroUm+numeroDois+".");}
